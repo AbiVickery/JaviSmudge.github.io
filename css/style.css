@@ -1,5 +1,6 @@
 body {
     position: relative;
+    text-align: center;
     background: rgb(127,152,132);
     background: -moz-radial-gradient(circle, rgba(127,152,132,1) 0%, rgba(195,162,63,1) 32%, rgba(255,203,146,1) 72%, rgba(109,164,166,1) 100%);
     background: -webkit-radial-gradient(circle, rgba(127,152,132,1) 0%, rgba(195,162,63,1) 32%, rgba(255,203,146,1) 72%, rgba(109,164,166,1) 100%);
