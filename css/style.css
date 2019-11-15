@@ -1,4 +1,6 @@
 body {
+    font-family: 'Amatic SC', cursive;
+    color: #322846;
     position: relative;
     text-align: center;
     background: rgb(127,152,132);
@@ -6,6 +8,14 @@ body {
     background: -webkit-radial-gradient(circle, rgba(127,152,132,1) 0%, rgba(195,162,63,1) 32%, rgba(255,203,146,1) 72%, rgba(109,164,166,1) 100%);
     background: radial-gradient(circle, rgba(127,152,132,1) 0%, rgba(195,162,63,1) 32%, rgba(255,203,146,1) 72%, rgba(109,164,166,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#7f9884",endColorstr="#6da4a6",GradientType=1);
+}
+
+#up {
+    font-size: 25px;
+}
+
+#pb {
+    font-size: 30px;
 }
 
 #sprite  { 
@@ -28,3 +38,9 @@ body {
         to {
             background-position: 626px } 
         }
+
+#smudge {
+    border-radius: 50%;
+    border-spacing: 2px;
+    border-color: aqua;
+}

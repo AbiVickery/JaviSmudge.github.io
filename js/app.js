@@ -5,4 +5,4 @@
 //     clicker.click()
 
 var button = document.getElementById("btn");
-button.addEventListener("click", scrollTo);
+button.addEventListener("click");
